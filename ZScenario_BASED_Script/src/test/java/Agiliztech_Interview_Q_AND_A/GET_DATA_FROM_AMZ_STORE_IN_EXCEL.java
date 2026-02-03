@@ -21,7 +21,7 @@ public class GET_DATA_FROM_AMZ_STORE_IN_EXCEL {
 
         driver.get("https://www.amazon.com/");
         driver.findElement(By.xpath("//button[text()='Continue shopping']")).click();
-        WebElement search=driver.findElement(By.id("twotabsearchtextbox"));
+        WebElement search=driver.findElement(By.id(""));
         search.sendKeys("phones",Keys.ENTER);
         
         
